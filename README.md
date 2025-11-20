@@ -1,16 +1,24 @@
-# React + Vite
+# Budget-Aware Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive web application for tracking expenses and managing monthly budgets.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User authentication (Sign up/Login)
+- Category management with custom colors
+- Monthly budget setting per category
+- Expense tracking with real-time budget status
+- Monthly reports and analytics
+- Responsive design for mobile and desktop
 
-## React Compiler
+- ### Frontend
+- React 18
+- React Router
+- Tailwind CSS
+- Recharts for analytics
+- date-fns for date manipulation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ## Live Demo
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: [https://expense-tracker-frontend-eight-beta.vercel.app/auth]
+- Backend API: [https://expense-tracker-backend-five-chi.vercel.app/]
